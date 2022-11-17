@@ -11,6 +11,7 @@ public class Annotations {
 @BeforeClass
 public void openBrowser() {
 	Reporter.log("Browser is opened",true);
+	Reporter.log("Hello",true);
 	
 }
 @BeforeMethod
